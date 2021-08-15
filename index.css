@@ -1,0 +1,558 @@
+body{
+	margin: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	
+}
+
+#teslaS{
+	background-image: url(TeslaS2.png);
+	background-repeat:no-repeat ;
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	margin-top: 0px;
+}
+
+ul{
+	padding-top: 20px;
+	padding-left: 25%;
+	list-style-type: none;
+
+	
+
+}
+
+
+
+#a1{
+	background-color: none;
+
+}
+
+#a1:hover{
+	border: none;
+}
+
+
+#logo{
+	width: 10%;
+	height: auto;
+	position: fixed;
+	padding-top: 5%;
+	margin-top: -170px;
+	;
+}
+
+
+
+
+#divk{
+	position: absolute;
+	margin-top: 3.7%;
+}
+
+#navbar{
+	
+	 width:100%;
+	 height:100px;
+	 position:fixed;
+	 
+}
+
+#navbar{
+	background-color: gray;
+	width: 100%;
+	height: 100px;
+	background-color: rgba(64, 64, 64, 0.5);
+	 
+	 z-index: 50;
+	 
+}
+.nav {
+	
+	border: 1 px solid black;
+	font-size: 25px;
+	text-decoration: none;
+	color: gray;
+	display: inline;
+	list-style-type: none;
+	padding: 30px;
+	font-family: 'Playfair Display SC', serif;
+
+}
+
+.a{
+	font-size: 25px;
+	text-decoration: none;
+	color: rgb(64, 64, 64);
+	display: inline;
+	list-style-type: none;
+	padding: 30px;
+	font-family: 'Playfair Display SC', serif;
+
+}
+.a:hover{
+	background-color: rgb(192, 192,192);
+	text-decoration: none;
+	border-radius: 50px;
+	color: rgb(64, 64, 64);
+	font-family: 'Playfair Display SC', serif;
+}
+
+
+
+#p1{
+	width: 500px;
+	font-size: 50px;
+	margin-top: 50px;
+	margin-left: 43%;
+	font-family: 'Playfair Display SC', serif;
+	position: relative;
+	animation-name: p1;
+	animation-duration: 4s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 1;
+}
+
+@keyframes p1{
+
+		0%{
+			 left: 3000px;
+		}
+		100%{
+			left: 0px;
+		}
+	}
+
+#button1{
+	border-radius: 15px;
+	font-family: 'Playfair Display SC', serif;
+	color: white;
+	background-color: gray;
+	width: 300px;
+	font-size: 20px;
+	margin-left: 30%;
+	margin-top: 30%;
+	margin-bottom: 5%;
+}
+
+
+#button2{
+	border-radius: 15px;
+	font-family: 'Playfair Display SC', serif;
+	color: white;
+	background-color: gray;
+	width: 300px;
+	font-size: 20px;
+}
+
+
+@media screen and (max-width: 992px) {
+  body {
+    
+  }
+
+  
+#navbar{
+	
+	 width:100%;
+	 height:100px;
+	 position:fixed;
+	 
+}
+
+
+
+
+.nav{
+	margin-top: -4.9%;
+	background-color: gray;
+	margin-left: -35%;
+	text-align: center;
+	font-size: 25px;
+	text-decoration: none;
+	color: gray;
+	display: block;
+	list-style-type: none;
+	padding: 30px;
+	font-family: 'Playfair Display SC', serif;
+
+}  
+
+
+
+.a{
+	font-size: 20px;
+	text-decoration: none;
+	color: rgb(64, 64, 64);
+	display: inline;
+	list-style-type: none;
+	padding: 30px;
+	font-family: 'Playfair Display SC', serif;
+
+}
+
+.nav .a:hover{
+	background-color: rgb(192, 192,192);
+	text-decoration: none;
+	border-radius: 50px;
+	color: rgb(64, 64, 64);
+	font-family: 'Playfair Display SC', serif;
+}
+
+
+
+ #teslaS{
+  	background-image: url(TeslaS.png);
+  	margin-top: 10%;
+  	background-repeat:no-repeat ;
+  	background-size:992px;
+  	width:auto;
+  	height: 100%;
+  }
+
+  #p1{
+	width: 500px;
+	font-size: 30px;
+	padding-top: 20%;
+	margin-left: 40%;
+	font-family: 'Playfair Display SC', serif;
+	position: relative;
+	animation-name: p1;
+	animation-duration: 4s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 1;
+}
+
+
+
+
+
+
+
+#button1{
+	border-radius: 15px;
+	font-family: 'Playfair Display SC', serif;
+	color: white;
+	background-color: gray;
+	width: 150px;
+	font-size: 15px;
+	margin-left: 30%;
+	margin-top: 30%;
+	margin-bottom: 14.5%;
+}
+
+#button2{
+	border-radius: 20px;
+	font-family: 'Playfair Display SC', serif;
+	color: white;
+	background-color: gray;
+	width: 170px;
+	font-size: 15px;
+}
+}
+
+
+
+#Tesla3{
+	background-image: url(tesla3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	margin-top: -1.4%;
+	
+}
+
+
+#p2{
+	width: 500px;
+	font-size: 50px;
+	margin-left: 40%;
+	padding-top: 5%;
+	font-family: 'Playfair Display SC', serif;
+	position: relative;
+	animation-name: p1;
+	animation-duration: 4s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 1;
+}
+
+#button3{
+	border-radius: 15px;
+	font-family: 'Playfair Display SC', serif;
+	color: white;
+	background-color: gray;
+	width: 300px;
+	font-size: 20px;
+	margin-left: 30%;
+	margin-top: 37%;
+	margin-bottom: 12.5%;
+}
+
+#button4{
+	border-radius: 15px;
+	font-family: 'Playfair Display SC', serif;
+	color: white;
+	background-color: gray;
+	width: 300px;
+	font-size: 20px;
+}
+
+
+@media screen and (max-width: 992px) {
+  body {
+   }
+#Tesla3{
+	background-image: url(tesla3.jpg);
+	background-repeat: no-repeat;
+	background-size: 992px;
+	width: 100%;
+	height: 100%;
+	margin-top: -12.1%;
+
+	
+}
+
+
+#p2{
+	width: 500px;
+	font-size: 30px;
+	margin-left: 40%;
+	padding-top: 5%;
+	font-family: 'Playfair Display SC', serif;
+	position: relative;
+	animation-name: p1;
+	animation-duration: 4s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 1;
+}
+
+#button3{
+	border-radius: 15px;
+	font-family: 'Playfair Display SC', serif;
+	color: white;
+	background-color: gray;
+	width: 200px;
+	font-size: 15px;
+	margin-left: 25%;
+	margin-top: 40%;
+	margin-bottom: 15.5%;
+}
+
+#button4{
+	border-radius: 15px;
+	font-family: 'Playfair Display SC', serif;
+	color: white;
+	background-color: gray;
+	width: 200px;
+	font-size: 15px;
+}
+
+ }
+
+
+#TeslaX{
+		width: 100%;
+	height: 100%;
+
+}
+
+#teslaX{
+	margin-top: -11.8%;
+}
+
+#p3{
+	width: 500px;
+	font-size: 50px;
+	margin-left: 40%;
+	font-family: 'Playfair Display SC', serif;
+	position: relative;
+	animation-name: p1;
+	animation-duration: 4s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 1;
+}
+
+
+#button5{
+	border-radius: 15px;
+	font-family: 'Playfair Display SC', serif;
+	color: white;
+	background-color: gray;
+	width: 300px;
+	font-size: 20px;
+	margin-left: 20%;
+	margin-top: -20%;
+	margin-bottom:10%;
+	position: relative;
+	top: -150px;
+	left: 20%;
+}
+
+
+#button6{
+	position: relative;
+	top: -150px;
+	left: 20%;
+	border-radius: 15px;
+	font-family: 'Playfair Display SC', serif;
+	color: white;
+	background-color: gray;
+	width: 300px;
+	font-size: 20px;
+}
+
+
+@media screen and (max-width: 992px) {
+	#TeslaX{
+		width: 992px;
+	height: 100%;
+
+}
+
+#teslaX{
+	width: 992px;
+	margin-top: -19.8%;
+}
+
+#p3{
+	width: 500px;
+
+	font-size: 30px;
+	margin-left: 40%;
+	font-family: 'Playfair Display SC', serif;
+	position: relative;
+	animation-name: p1;
+	animation-duration: 4s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 1;
+}
+
+
+#button5{
+	border-radius: 15px;
+	font-family: 'Playfair Display SC', serif;
+	color: white;
+	background-color: gray;
+	width: 200px;
+	font-size: 15px;
+	margin-left: 30%;
+	margin-top: -20%;
+	margin-bottom:11.7%;
+	position: relative;
+	top: -100px;
+	left: 0px;
+}
+
+
+#button6{
+	position: relative;
+	top: -100px;
+	left: 0px;
+	border-radius: 15px;
+	font-family: 'Playfair Display SC', serif;
+	color: white;
+	background-color: gray;
+	width: 200px;
+	font-size: 15px;
+}
+
+}
+
+
+#TeslaY{
+	background-image: url(TeslaY.jpg);
+		background-size: 100%;
+
+	width: 100%;
+	height: 1080px;
+	margin-top: -13%;
+}
+
+
+#p4{
+	width: 500px;
+	font-size: 50px;
+	margin-left: 40%;
+	padding-top: 5%;
+	font-family: 'Playfair Display SC', serif;
+	position: relative;
+	animation-name: p1;
+	animation-duration: 4s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 1;
+}
+
+
+#button7{
+	border-radius: 15px;
+	font-family: 'Playfair Display SC', serif;
+	color: white;
+	background-color: gray;
+	width: 300px;
+	font-size: 20px;
+	margin-left: 30%;
+	margin-top: 37%;
+	margin-bottom: 0;
+}
+
+#button8{
+	border-radius: 15px;
+	font-family: 'Playfair Display SC', serif;
+	color: white;
+	background-color: gray;
+	width: 300px;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+   }
+
+	#TeslaY{
+	background-image: url(TeslaY.jpg);
+		background-size: 992px;
+		background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	margin-top: -15.5%;
+}
+
+	#p4{
+	width: 500px;
+	font-size: 30px;
+	margin-left: 40%;
+	padding-top: 5%;
+	font-family: 'Playfair Display SC', serif;
+	position: relative;
+	animation-name: p1;
+	animation-duration: 4s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 1;
+}
+
+#button7{
+	border-radius: 15px;
+	font-family: 'Playfair Display SC', serif;
+	color: white;
+	background-color: gray;
+	width: 200px;
+	font-size: 15px;
+	margin-left: 25%;
+	margin-top: 37%;
+	margin-bottom: 5%;
+}
+
+#button8{
+	border-radius: 15px;
+	font-family: 'Playfair Display SC', serif;
+	color: white;
+	background-color: gray;
+	width: 200px;
+	font-size: 15px;
+}
+
+
+ }
